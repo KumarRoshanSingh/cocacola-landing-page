@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, "sans-serif";
+    color: #fff;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+/* styling nav parent */
+
+#nav{
+    height: 120px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+/* styling nav prt2 menu items */
+
+#nav-prt2{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: #000; */
+}
+
+#nav-prt2 h5{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* styling menu button */
+
+#nav h1{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    width: 15%;
+}
+
+#nav>i{
+    font-size: 20px;
+    font-weight: 600;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.ri-menu-2-line{
+    margin-right: 7px;
+}
+
+/* styling logo and line  */
+
+#nav-prt2 img{
+    height: 50px;
+}
+
+.line{
+    height: 2px;
+    width: 70px;
+    background-color: red;
+}
+
+/* content area styling */
+
+#content{
+    height: calc(100% - 120px);
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+#left{
+    height: 100%;
+    width: 37%;
+    /* background-color: magenta; */
+    padding: 130px 50px 130px 100px;
+}
+
+#right{
+    height: 100%;
+    width: 37%;
+    /* background-color: rgb(13, 0, 255); */
+    padding: 200px 140px;
+}
+
+#center{
+    height: 100%;
+    width: 26%;
+    padding-top: 40px;
+}
+
+/* styling left content of hero */
+
+#left h1{
+    font-size: 51px;
+    line-height: 55px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+
+#left p{
+    font-size: 16px;
+    width: 81%;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
+
+#left button{
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ri-shopping-bag-3-line{
+    margin-right: 10px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.ri-heart-line{
+    font-size: 22px;
+    margin-left: 50px;
+    color: red;
+    cursor: pointer;
+}
+
+
+/* styling center of hero  */
+
+#center-bg{
+    height: 82%;
+    width: 100%;
+    border: 2px solid #000;
+    /* background-color: rgb(14, 221, 14); */
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(./assets/coca-cola-led-signage.jpeg);
+    background-size: 550%;
+    background-position: 40% 30%;
+    filter: blur(2px);
+}
+
+/* styling and positioning image */
+
+#content>img{
+    height: 95%;
+    position: absolute;
+    left: 34%;
+}
+
+/* right content hero */
+
+#right-elems{
+    /* background-color: red; */
+    width: 280px;
+}
+
+.elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid white;
+}
+
+.elem1 h1{
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.elem1 i{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#elem2 h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+#elem2 p{
+    font-size: 12px;
+    font-weight: 500;
+    width: 80%;
+    opacity: 0.5;
+    margin-bottom: 70px;
+}
+
+#scroll{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#scroll i{
+    font-size: 30px;
+    opacity: 0.5;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+#scroll span{
+    font-size: 25px;
+    font-weight: 400px;
+    opacity: 0.5;
+    cursor: pointer;
+}
